@@ -8,6 +8,8 @@ spec:
   source:
     repoURL: https://github.com/MarekSadlowski/istio-test.git
     targetRevision: HEAD
+    directory:
+      recurse: true
     path: istio-devops-tools
   destination:
     server: https://kubernetes.default.svc
